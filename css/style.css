@@ -320,6 +320,8 @@ h5 {
 .footer {
 	display: flex;
 	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
 	/* justify-content: space-around; */
 	/* justify-content: center; */
 
@@ -561,8 +563,8 @@ h5 {
 header{
 	/*width: 100vw;*/
 	box-sizing: border-box;
-	height: 50px;
-	padding: 10px 30px;
+	height: 50px;/*100/2*/
+	padding: 5px 15px;
 	background-color: white;
 	border-bottom: 1px solid silver;
 	box-shadow: 0 0 10px -2px silver;
@@ -572,8 +574,8 @@ header{
 .header-logo-link{
 	/*display: inline-block;*/
 	/*vertical-align: top;*/
-	line-height: 100px;
-	height: 33px;
+	line-height: 50px;
+	height: 40px;
 	max-width: 200px;
 	display: flex;
 }
@@ -636,11 +638,8 @@ header{
 }
 
 @media (max-width: 768px) {
-	header{
-		padding: 15px 15px;
-	}
-	.lang-switch-item{
+	/*.lang-switch-item{
 		height: 22.5px;
 		width: 37.5px;
-	}
+	}*/
 }
